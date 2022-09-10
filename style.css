@@ -1,0 +1,64 @@
+body {
+  background-color: skyblue;
+}
+.Pro{
+    color: blueviolet;
+    background-color: rgb(0, 0, 0);
+     padding: 40px; 
+     text-align: center;
+     text-decoration: none;
+     text-shadow: 2px 2px 5px;
+     margin-bottom: 10px;
+     display: inline-block;
+    
+    }
+    .Exp{
+        color: blueviolet;
+        background-color: rgb(0, 0, 0);
+         padding: 40px; 
+         text-align: center;
+         text-decoration: none;
+         text-shadow: 2px 2px 5px;
+         margin-bottom: 10px;
+         display: inline-block;
+        }
+    .Abi{color: blueviolet;
+        background-color: rgb(0, 0, 0);
+         padding: 40px; 
+         text-align: center;
+         text-decoration: none;
+         text-shadow: 2px 2px 5px;
+         margin-bottom: 10px;
+         display: inline-block;}
+    .Proje{color: blueviolet;
+        background-color: rgb(0, 0, 0);
+         padding: 40px; 
+         text-align: center;
+         text-decoration: none;
+         text-shadow: 2px 2px 5px;
+         margin-bottom: 10px;
+         display: inline-block;}
+    .Con{color: blueviolet;
+        background-color: rgb(0, 0, 0);
+         padding: 40px; 
+         text-align: center;
+         text-decoration: none;
+         text-shadow: 2px 2px 5px;
+         margin-bottom: 10px;
+         display: inline-block;}
+         @keyframes example {
+            from {background-color: red;}
+            to {background-color: yellow;}
+            to{background-color: aqua;}
+            to{background-color: rgba(4, 255, 0, 0.755);}
+            to{background-color: rgb(255, 0, 242);}
+            to{background-color: rgb(153, 0, 255);}
+
+          }
+          div {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            animation-name: example;
+            animation-duration: 4s;
+          }
